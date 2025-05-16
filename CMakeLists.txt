@@ -23,7 +23,7 @@ target_include_directories(lib1 PUBLIC include src test)
 add_compile_options(-Wall -Wextra -pedantic -O0)
 
 # add an executable and assign files to it
-add_executable(cmake_example_exec src/Dynamische_Speicher.cpp)
+add_executable(cmake_example_exec src/polymorphism.cpp)
 # add the include directories
 target_include_directories(cmake_example_exec PUBLIC include)
 # link your libraries
